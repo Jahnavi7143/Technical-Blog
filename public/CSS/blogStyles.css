@@ -1,0 +1,119 @@
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin : auto 70px 0px 70px;
+    min-height: 100vh;
+}
+
+.blog-post h1{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom : 20px;
+    margin-top: 0px;
+}
+
+.blog-post img{
+    width : 90%;
+    height : 400px;
+    object-fit: cover;
+}
+
+.blog-post p{
+    font-size: 20px;
+    text-align: left;
+    margin : 30px 50px;
+}
+
+.delete-container{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+.delete-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+    align-self: center;
+    justify-content: flex-start;
+    margin-left: -300px;
+}
+
+.delete-container button{
+    color: red;
+    font-size : 17px;
+    font-weight: 400;
+    height : 40px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    justify-content: flex-end;
+    margin-right: -300px;
+} 
+
+.delete-container button:hover{
+    background-color: red;
+    color: white;
+}
+
+.previous-next{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin : 30px 70px 30px 70px;
+}
+
+.previous{
+    text-decoration: none;
+    color : #800000;
+    font-weight: bold;
+    align-items: center;  
+    gap: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.next{
+    text-decoration: none;
+    color : #006600;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.previous-next a:hover {
+    color: #660066; 
+}
+
+.previous-next svg {
+    fill: currentColor; 
+}
+
+.blog-post h2{
+    font-size: 20px;
+    font-weight: 400;
+    align-self: flex-start;
+    margin-left:50px;
+}
+
+.blog-post i{
+    color:blue;
+}
+
+.blog-post h3{
+    font-size : 18px;
+    font-weight: 400;
+    margin-left:50px;
+    margin-bottom : 100px;
+    align-self: flex-start;
+}
